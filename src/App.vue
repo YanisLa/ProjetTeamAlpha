@@ -63,8 +63,8 @@ export default {
         presentation: `Accueil`,
         entrepot: `Les flottes`,
         panier: `Mon panier`,
-        deconnection: `Se Déconnexion`,
-        connection: `Se connecter`
+        deconnection: `Déconnexion`,
+        connection: `Connexion`
       }
     },
     server: {
