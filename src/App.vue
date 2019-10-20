@@ -29,8 +29,8 @@
       <template v-if="body.watch === 1" #extension>
         <v-toolbar-items>
           <v-btn tile @click="avion(0)">Tout les types</v-btn>
-          <v-btn tile @click="avion(1)">Long courier</v-btn>
-          <v-btn tile @click="avion(2)">Moyen courier</v-btn>
+          <v-btn tile @click="avion(1)">Long courrier</v-btn>
+          <v-btn tile @click="avion(2)">Moyen courrier</v-btn>
           <v-btn tile @click="avion(3)">Régionale</v-btn>
           <v-btn tile @click="avion(4)">Cargo</v-btn>
         </v-toolbar-items>

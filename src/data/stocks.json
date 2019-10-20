@@ -4,7 +4,7 @@
         "description":{
             "this":"TOTO",
             "prix":"30.000.000",
-            "name":"Boeing 737",
+            "name":"Boeing 777",
             "type":{
                 "this":"Moyen courier",
                 "id":0
@@ -24,7 +24,7 @@
             "name":"Airbus A319",
             "type":{
                 "this":"Moyen courier",
-                "id":0
+                "id":1
             }
         },
         "max":{
@@ -41,7 +41,7 @@
             "name":"Airbus A320",
             "type":{
                 "this":"Moyen courier",
-                "id":0
+                "id":1
             }
         },
         "max":{
@@ -58,6 +58,23 @@
             "name":"Airbus A321",
             "type":{
                 "this":"Moyen courier",
+                "id":1
+            }
+        },
+        "max":{
+            "porté":"0",
+            "vitesse":"0",
+            "passager":"0"
+        }
+    },
+    {
+        "id":5,
+        "description":{
+            "this":"",
+            "prix":"25.000.000",
+            "name":"Airbus A330",
+            "type":{
+                "this":"Long courier",
                 "id":0
             }
         },
@@ -72,7 +89,7 @@
         "description":{
             "this":"",
             "prix":"29.000.000",
-            "name":"Airbus A321",
+            "name":"Boeing 737",
             "type":{
                 "this":"Long courier",
                 "id":1
@@ -89,7 +106,7 @@
         "description":{
             "this":"",
             "prix":"29.000.000",
-            "name":"Airbus A321",
+            "name":"Embraer 145",
             "type":{
                 "this":"Regionale",
                 "id":2
@@ -106,10 +123,10 @@
         "description":{
             "this":"",
             "prix":"29.000.000",
-            "name":"Airbus A321",
+            "name":"ATR 72-600",
             "type":{
-                "this":"Cargo",
-                "id":3
+                "this":"Regionnal",
+                "id":2
             }
         },
         "max":{
@@ -123,7 +140,41 @@
         "description":{
             "this":"",
             "prix":"29.000.000",
-            "name":"Airbus A321",
+            "name":"Bombardier CRJ 700",
+            "type":{
+                "this":"Regionnal",
+                "id":2
+            }
+        },
+        "max":{
+            "porté":"0",
+            "vitesse":"0",
+            "passager":"0"
+        }
+    },
+    {
+        "id":12,
+        "description":{
+            "this":"",
+            "prix":"29.000.000",
+            "name":"Boeing 777 - Cargo",
+            "type":{
+                "this":"cargo",
+                "id":3
+            }
+        },
+        "max":{
+            "porté":"0",
+            "vitesse":"0",
+            "passager":"0"
+        }
+    },
+    {
+        "id":13,
+        "description":{
+            "this":"",
+            "prix":"29.000.000",
+            "name":"Boeing 747 - Cargo",
             "type":{
                 "this":"Cargo",
                 "id":3
@@ -140,10 +191,10 @@
         "description":{
             "this":"",
             "prix":"29.000.000",
-            "name":"Airbus A999",
+            "name":"Boeing 747",
             "type":{
-                "this":"Cargo",
-                "id":2
+                "this":"Long courrier",
+                "id":0
             }
         },
         "max":{
@@ -157,10 +208,10 @@
         "description":{
             "this":"",
             "prix":"29.000.000",
-            "name":"Airbus A321",
+            "name":"Boeing 787 - Dreamliner",
             "type":{
-                "this":"Cargo",
-                "id":3
+                "this":"Long courrier",
+                "id":0
             }
         },
         "max":{
@@ -174,10 +225,10 @@
         "description":{
             "this":"",
             "prix":"29.000.000",
-            "name":"Airbus A321",
+            "name":"Airbus A380",
             "type":{
-                "this":"Cargo",
-                "id":3
+                "this":"Long courrier",
+                "id":0
             }
         },
         "max":{
@@ -191,10 +242,10 @@
         "description":{
             "this":"",
             "prix":"29.000.000",
-            "name":"Airbus A321",
+            "name":"Airbus A350",
             "type":{
-                "this":"Cargo",
-                "id":3
+                "this":"Long Courrier",
+                "id":0
             }
         },
         "max":{
