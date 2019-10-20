@@ -3,51 +3,51 @@
         "id":0,
         "description":{
             "this":"TOTO",
-            "prix":"30.000.000",
+            "prix":"150.000.000",
             "name":"Boeing 777",
             "type":{
-                "this":"Moyen courier",
+                "this":"Long courrier",
                 "id":0
             }
         },
         "max":{
-            "porté":"50",
-            "vitesse":"10",
-            "passager":"90"
+            "porté":"64.80",
+            "vitesse":"0.84",
+            "passager":"296"
         }
     },
     {
         "id":1,
         "description":{
             "this":"",
-            "prix":"25.000.000",
+            "prix":"70.000.000",
             "name":"Airbus A319",
             "type":{
-                "this":"Moyen courier",
+                "this":"Moyen courrier",
                 "id":1
             }
         },
         "max":{
-            "porté":"0",
-            "vitesse":"0",
-            "passager":"0"
+            "porté":"34.10",
+            "vitesse":"0.79",
+            "passager":"143"
         }
     },
     {
         "id":2,
         "description":{
             "this":"",
-            "prix":"28.000.000",
+            "prix":"80.000.000",
             "name":"Airbus A320",
             "type":{
-                "this":"Moyen courier",
+                "this":"Moyen courrier",
                 "id":1
             }
         },
         "max":{
-            "porté":"0",
-            "vitesse":"0",
-            "passager":"0"
+            "porté":"34.10",
+            "vitesse":"0.79",
+            "passager":"176"
         }
     },
     {
@@ -57,21 +57,21 @@
             "prix":"29.000.000",
             "name":"Airbus A321",
             "type":{
-                "this":"Moyen courier",
+                "this":"Moyen courrier",
                 "id":1
             }
         },
         "max":{
-            "porté":"0",
-            "vitesse":"0",
-            "passager":"0"
+            "porté":"34.10",
+            "vitesse":"0.79",
+            "passager":"212"
         }
     },
     {
         "id":5,
         "description":{
             "this":"",
-            "prix":"25.000.000",
+            "prix":"140.000.000",
             "name":"Airbus A330",
             "type":{
                 "this":"Long courier",
@@ -79,33 +79,33 @@
             }
         },
         "max":{
-            "porté":"0",
-            "vitesse":"0",
-            "passager":"0"
+            "porté":"60.30",
+            "vitesse":"0.82",
+            "passager":"222"
         }
     },
     {
         "id":4,
         "description":{
             "this":"",
-            "prix":"29.000.000",
+            "prix":"75.000.000",
             "name":"Boeing 737",
             "type":{
-                "this":"Long courier",
+                "this":"Moyen courrier",
                 "id":1
             }
         },
         "max":{
-            "porté":"0",
-            "vitesse":"0",
-            "passager":"0"
+            "porté":"35.80",
+            "vitesse":"0.79",
+            "passager":"142"
         }
     },
     {
         "id":5,
         "description":{
             "this":"",
-            "prix":"29.000.000",
+            "prix":"14.000.000",
             "name":"Embraer 145",
             "type":{
                 "this":"Regionale",
@@ -113,16 +113,16 @@
             }
         },
         "max":{
-            "porté":"0",
-            "vitesse":"0",
-            "passager":"0"
+            "porté":"20.04",
+            "vitesse":"0.75",
+            "passager":"50"
         }
     },
     {
         "id":6,
         "description":{
             "this":"",
-            "prix":"29.000.000",
+            "prix":"18.000.000",
             "name":"ATR 72-600",
             "type":{
                 "this":"Regionnal",
@@ -130,16 +130,16 @@
             }
         },
         "max":{
-            "porté":"0",
-            "vitesse":"0",
-            "passager":"0"
+            "porté":"27.05",
+            "vitesse":"0.45",
+            "passager":"72"
         }
     },
     {
         "id":7,
         "description":{
             "this":"",
-            "prix":"29.000.000",
+            "prix":"21.000.000",
             "name":"Bombardier CRJ 700",
             "type":{
                 "this":"Regionnal",
@@ -147,16 +147,16 @@
             }
         },
         "max":{
-            "porté":"0",
-            "vitesse":"0",
-            "passager":"0"
+            "porté":"23.2",
+            "vitesse":"0.75",
+            "passager":"72"
         }
     },
     {
         "id":12,
         "description":{
             "this":"",
-            "prix":"29.000.000",
+            "prix":"110.000.000",
             "name":"Boeing 777 - Cargo",
             "type":{
                 "this":"cargo",
@@ -164,8 +164,8 @@
             }
         },
         "max":{
-            "porté":"0",
-            "vitesse":"0",
+            "porté":"60.93",
+            "vitesse":"0.84",
             "passager":"0"
         }
     },
@@ -173,7 +173,7 @@
         "id":13,
         "description":{
             "this":"",
-            "prix":"29.000.000",
+            "prix":"170.000.000",
             "name":"Boeing 747 - Cargo",
             "type":{
                 "this":"Cargo",
@@ -181,8 +181,8 @@
             }
         },
         "max":{
-            "porté":"0",
-            "vitesse":"0",
+            "porté":"64.44",
+            "vitesse":"0.85",
             "passager":"0"
         }
     },
@@ -190,7 +190,7 @@
         "id":8,
         "description":{
             "this":"",
-            "prix":"29.000.000",
+            "prix":"170.000.000",
             "name":"Boeing 747",
             "type":{
                 "this":"Long courrier",
@@ -198,16 +198,16 @@
             }
         },
         "max":{
-            "porté":"0",
-            "vitesse":"0",
-            "passager":"0"
+            "porté":"64.44",
+            "vitesse":"0.85",
+            "passager":"408"
         }
     },
     {
         "id":9,
         "description":{
             "this":"",
-            "prix":"29.000.000",
+            "prix":"175.000.000",
             "name":"Boeing 787 - Dreamliner",
             "type":{
                 "this":"Long courrier",
@@ -215,16 +215,16 @@
             }
         },
         "max":{
-            "porté":"0",
-            "vitesse":"0",
-            "passager":"0"
+            "porté":"60.17",
+            "vitesse":"0.85",
+            "passager":"276"
         }
     },
     {
         "id":10,
         "description":{
             "this":"",
-            "prix":"29.000.000",
+            "prix":"250.000.000",
             "name":"Airbus A380",
             "type":{
                 "this":"Long courrier",
@@ -232,16 +232,16 @@
             }
         },
         "max":{
-            "porté":"0",
-            "vitesse":"0",
-            "passager":"0"
+            "porté":"79.75",
+            "vitesse":"0.85",
+            "passager":"516"
         }
     },
     {
         "id":11,
         "description":{
             "this":"",
-            "prix":"29.000.000",
+            "prix":"170.000.000",
             "name":"Airbus A350",
             "type":{
                 "this":"Long Courrier",
@@ -249,9 +249,9 @@
             }
         },
         "max":{
-            "porté":"0",
-            "vitesse":"0",
-            "passager":"0"
+            "porté":"64.75",
+            "vitesse":"0.85",
+            "passager":"324"
         }
     }
 ]

@@ -6,12 +6,12 @@
             <td v-for="SecondDimensionOfTable in FirstElementOfTable" :key="SecondDimensionOfTable.id" :id="SecondDimensionOfTable.id" style="padding-bottom: 60px;">
               <p id="title"><strong>{{ SecondDimensionOfTable.description.name }}</strong></p>
               <img :src="SecondDimensionOfTable.description.src" width="100%">
-              <p>Jusqu'à <strong>{{ SecondDimensionOfTable.max.passager }}</strong> passagé</p>
+              <p>Jusqu'à <strong>{{ SecondDimensionOfTable.max.passager }}</strong> passagers </p>
               <p><strong>Type:</strong> {{ SecondDimensionOfTable.description.type.this }} </p>
-              <p><strong>Vitesse:</strong> {{ SecondDimensionOfTable.max.vitesse }} Km/H/Kt</p>
-              <p><strong>Portée:</strong> {{ SecondDimensionOfTable.max.porté }} Nm/Km</p>
+              <p><strong>Vitesse:</strong> {{ SecondDimensionOfTable.max.vitesse }} Mach</p>
+              <p><strong>Envergure:</strong> {{ SecondDimensionOfTable.max.porté }} m</p>
               <p><strong>Prix:</strong> {{ SecondDimensionOfTable.description.prix }} €</p>
-              <p><strong>Description:</strong> {{ SecondDimensionOfTable.description.this }} </p>
+              <!-- Comment <p><strong>Description:</strong> {{ SecondDimensionOfTable.description.this }} </p> -->
               <v-btn tile id="connected" v-if="connected" @click="panier(SecondDimensionOfTable.id, this)">Ajouter au panier</v-btn>
             </td>
           </tr>

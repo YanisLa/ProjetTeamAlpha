@@ -4,10 +4,10 @@
       <td  v-for="element in SecondList" :key="element.id" style="padding-bottom: 60px;">
         <p id="title"><strong>{{ element.name }}</strong></p>
         <img :src="element.src" width="100%">
-        <p>Jusqu'à <strong>{{ element.passage }}</strong> passagé</p>
+        <p>Jusqu'à <strong>{{ element.passage }}</strong> passagers</p>
         <p><strong>Type:</strong> {{ element.type }} </p>
-        <p><strong>Vitesse:</strong> {{ element.vitesse }} Km/H/Kt</p>
-        <p><strong>Portée:</strong> {{ element.porte }} Nm/Km</p>
+        <p><strong>Vitesse:</strong> {{ element.vitesse }} Mach</p>
+        <p><strong>Envergure:</strong> {{ element.porte }} m</p>
         <p><strong>Prix:</strong> {{ element.prix }} €</p>
         <v-btn id="connected" tile @click="retirer(element.id + 5 * element.id2)"> Retirer de mon panier</v-btn>
       </td>
