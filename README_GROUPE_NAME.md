@@ -1,4 +1,6 @@
 # Personne du groupe
-RIAD Laura;
+```
+RIAD Laura
+```
 LARBI Yanis;
 PAKALAVAN Mithun
