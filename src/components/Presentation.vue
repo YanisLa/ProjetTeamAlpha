@@ -1,7 +1,7 @@
 <template>
   <div>
       <v-img :src="require(`@/icon/presentation.png`)"></v-img>
-      <p><strong>Bienvenue à bord de Plan'air - Leader mondial dans la vente d'avion de ligne </strong> {{ body.text }} </p>
+      <p><strong><font color=#007FFF size="7">Bienvenue à bord de Plan'air </font></strong><br/><br/>{{ body.text }} </p>
   </div>
 </template>
 
@@ -21,9 +21,11 @@ export default {
 <style scoped>
 p{
   overflow-wrap: break-word;
-  width: 50%;
+  width: 80%;
   margin-left: 50%;
   transform: translate(-50%);
   margin-top: 25px;
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 </style>
