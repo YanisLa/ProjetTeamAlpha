@@ -65,7 +65,7 @@ export default {
       this.value_form.see = `password`
     },
     connection: function () {
-      this.axios.post(`http://localhost:4000/api/login`, { username: this.value_form.pseudo, password: this.value_form.password })
+      this.axios.post(`/api/login`, { username: this.value_form.pseudo, password: this.value_form.password })
         .then(jsondata => {
           const data = jsondata.data
           if (data.message === `error`) {

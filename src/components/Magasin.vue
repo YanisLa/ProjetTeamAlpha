@@ -34,7 +34,7 @@ export default {
   props: ['avion_type', 'connected'],
   methods: {
     panier: function (e) {
-      this.axios.post(`http://localhost:4000/api/panier/ajouter`, { avion: e })
+      this.axios.post(`/api/panier/ajouter`, { avion: e })
         .then(jsondata => {
         }).catch(error => {
           console.log(error)
