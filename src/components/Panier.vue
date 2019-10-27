@@ -51,7 +51,7 @@ export default {
       return list
     },
     retirer: function (e) {
-      this.axios.post(`http://localhost:4000/api/panier/supprimer`, { id: e })
+      this.axios.post(`/api/panier/supprimer`, { id: e })
         .then(jsondata => {
           const list = jsondata.data.data
           this.list = this.transformList(list)
@@ -62,7 +62,7 @@ export default {
     }
   },
   created () {
-    this.axios.get(`http://localhost:4000/api/panier`)
+    this.axios.get(`/api/panier`)
       .then(jsondata => {
         const list = jsondata.data.data
         this.list = this.transformList(list)
